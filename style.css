@@ -123,7 +123,7 @@ footer p {
     margin: 20px;
     border-radius: 30px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    transition: all 0.5s ease;
+    transition: all 0.8s ease;
 }
 
 .caixa:hover {
@@ -191,9 +191,32 @@ a{
 
 .quiz:hover {
     color: aliceblue;
-    transform: scale(1.1);
+    transform: scale(1.1);  
 }
 
 a:hover {
     color: aliceblue;
+}
+
+.reto {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #4895AA;
+    text-align: center;
+    border-radius: 20px;    
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.reto img {
+ width: 400px;
+ border-radius: 50px;
+}
+
+.dois {
+    padding: 20px;
 }
