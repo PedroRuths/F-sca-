@@ -9,6 +9,7 @@ body {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
+    height: 100%;
 }
 
 .navbar {
@@ -39,54 +40,14 @@ body {
     margin: 0 20px; 
 }
 
-.conteudo {
-    background-color: #4895AA;
-    margin: 2%;
-    padding: 1%;
-    border-radius: 20px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 80px;
-}
-
-.conteudo-formulas {
-    display:  flex;
-}
-
-.conteudo-formulas img {
-    width: 450px;
-    border-radius: 20px;
-}
-
-.conteudo-formulas p {
-    margin: 20px;
-    font-size: 18px;
-}
-
-.conteudo-quizizz {
-    display:  flex;
-    margin-bottom: 20px;
-}
-
-.conteudo-quizizz img {
-    width: 450px;
-    border-radius: 20px;
-    margin-top: 50px;
-}
-
-.conteudo-quizizz p {
-    margin: 20px;
-    font-size: 18px;
-}
-
 footer {
+    display: flex;
+    flex-direction: column;
     background-color: #4895AA;
     text-align: center;
     align-items: center;
-    margin-top: 2%;
-    
+    margin-top: 8%;
+    gap: 3px;
 }
 
 footer img {
@@ -203,7 +164,7 @@ a:hover {
     padding: 20px;
     text-align: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
     background-color: #4895AA;
     text-align: center;
     border-radius: 20px;    
@@ -219,4 +180,8 @@ a:hover {
 
 .dois {
     padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
